@@ -1,1 +1,1 @@
-# TristanSucksAtProgramming.github.io
+# TristanSuarez.github.io

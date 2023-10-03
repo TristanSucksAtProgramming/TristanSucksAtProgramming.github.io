@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+#wrapper {
+    background-color: #cbeeff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000033;
+    box-shadow: 3px 3px 3px #333333;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom, #ffffff, #17e4f36c);
+    background-repeat: no-repeat;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+main {
+    background-color: #ffffff;
+    margin-left: 190px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
+    overflow: auto;
+}
+table {
+    border: 2px solid cornflowerblue;
+    border-collapse: collapse;
+}
+tr:nth-of-type(1) {
+    background-color: #9ce4f7;
+    font-weight: bold;
+    text-align: center;
+}
+.centertable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+td {
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+}
+th {
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+    text-align: left;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+textarea {
+    display: block;
+    margin-bottom: 20px;   
+}
+input[type="submit"] {
+    margin-left: 140px;
+}
+body {
+    background-color: #beedff77;
+    color: #16485f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #004ad4;
+    color: #FFFFFF;
+    height: 120px;
+    text-align: center; 
+    font-size: x-large;
+    padding-top: 10px;
+    padding-left: 3em;
+}
+header a {
+    text-decoration: none;
+}
+header a:link {
+    color: #FFFFFF;
+}
+header a:visited {
+    color: #FFFFFF;
+}
+header a:hover {
+    color: #90C7E3;
+}
+nav {
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 180px;
+}
+nav a {
+    text-decoration: none;
+
+}
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 1.2em;
+}
+nav a:link {
+    color: #5C7FA3;
+}
+nav a:visited {
+    color: #344873;
+}
+nav a:hover {
+    transition: color 2s linear;
+    color: #A52A2A;
+}
+h1 {
+    margin-bottom: 0px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+}
+h3 {
+    margin-top: 50px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+dt {
+    margin-top: 40px;
+    list-style-image: url(redhousesmall.jpg);
+}
+.imgleft {
+    float: right;
+}
+footer {
+    background-color: #ffffff;
+    margin-left: 190px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
+    overflow: auto;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+}
